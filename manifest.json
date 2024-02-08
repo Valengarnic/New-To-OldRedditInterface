@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Redireccionador de Reddit",
+  "name": "Reddit UI changer",
   "version": "1.0",
-  "description": "Esta extensión redirige automáticamente los enlaces de reddit.com a new.reddit.com.",
+  "description": "Chrome extension that automatically changes reddit.com or www.reddit.com webs to new.reddit.com, which ironically switches to the old UI.",
   "permissions": [
     "webRequest",
     "webRequestBlocking",
