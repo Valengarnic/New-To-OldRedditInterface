@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Redireccionador de Reddit",
+  "version": "1.0",
+  "description": "Esta extensión redirige automáticamente los enlaces de reddit.com a new.reddit.com.",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://*.reddit.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.reddit.com/*"
+      ],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
