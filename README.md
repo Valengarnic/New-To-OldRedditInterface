@@ -1,5 +1,5 @@
 # New-To-OldRedditInterface
-Brave extension that automatically changes www.reddit.com webs to new.reddit.com, which ironically switches to the old UI.
+Chromium extension that automatically changes www.reddit.com webs to new.reddit.com, which ironically switches to the old UI.
 
 This extension only works when logged in, since new.reddit.com redirects back to www.reddit.com if you don't have an account.
 
